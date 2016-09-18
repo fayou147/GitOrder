@@ -42,15 +42,15 @@ HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历�
 
  1. 查看分支：git branch
 
- 2. 创建分支：git branch <name>
+ 2. 创建分支：git branch < name >
 
- 3. 切换分支：git checkout <name>
+ 3. 切换分支：git checkout < name >
 
- 4. 创建+切换分支：git checkout -b <name>
+ 4. 创建+切换分支：git checkout -b < name >
 
- 5. 合并某分支到当前分支：git merge <name>
+ 5. 合并某分支到当前分支：git merge < name >
 
- 6. 删除分支：git branch -d <name>
+ 6. 删除分支：git branch -d < name >
 
  每次commit，分支都会向前移动一步，这样，随着你不断提交，分支的线也越来越长
   ![image](https://github.com/fayou147/GitOrder/blob/master/image/QQ图片20160918173126.png)
