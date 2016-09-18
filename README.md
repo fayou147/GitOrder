@@ -56,7 +56,9 @@ HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历�
   ![image](https://github.com/fayou147/GitOrder/blob/master/image/QQ图片20160918173126.png)
 
  当我们创建新的分支，例如dev时，Git新建了一个指针叫dev，指向master相同的提交，再把HEAD指向dev，就表示当前分支在dev上 
+ 
   ![image](https://github.com/fayou147/GitOrder/blob/master/image/1.png)
 
  从现在开始，对工作区的修改和提交就是针对dev分支了，比如新提交一次后，dev指针往前移动一步，而master指针不变：
+
   ![image](https://github.com/fayou147/GitOrder/blob/master/image/2.png)
