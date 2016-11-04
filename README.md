@@ -67,3 +67,16 @@ HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历�
 
 
 ![image](https://github.com/fayou147/GitOrder/blob/master/image/Git-Cheat-Sheet-by-RebelLabs.png)
+
+
+
+
+
+
+### 问题or理解
+
+ 1. .gitignore   忽略某些文件，git status会不显示这里面的文件
+
+
+
+ 2. fatal: pathspec 'xxx' did not match any files     原因：暂存区中文件不存
